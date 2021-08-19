@@ -36,6 +36,10 @@ img.emoji {
 <link rel="stylesheet" id="astra-google-fonts-css" href="./../wp-content/astra-local-fonts/astra-local-fonts.css?ver=3.6.8" media="all">
 <link rel="stylesheet" id="astra-menu-animation-css" href="./../wp-content/themes/astra/assets/css/minified/menu-animation.min.css?ver=3.6.8" media="all">
 <link rel="stylesheet" id="wp-block-library-css" href="./../wp-content/plugins/gutenberg/build/block-library/style.css?ver=11.2.1" media="all">
+<link rel="stylesheet" id="bod-modal-block-style-css-css" href="./../wp-content/plugins/modal-block/dist/blocks.style.build.css?ver=5.8" media="all">
+<link rel="stylesheet" id="embedpress_blocks-cgb-style-css-css" href="./../wp-content/plugins/embedpress/Gutenberg/dist/blocks.style.build.css?ver=1629381106" media="all">
+<link rel="stylesheet" id="embedpress-css" href="./../wp-content/plugins/embedpress/assets/css/embedpress.css?ver=5.8" media="all">
+<link rel="stylesheet" id="popupaoc-public-style-css" href="./../wp-content/plugins/popup-anything-on-click/assets/css/popupaoc-public-style.css?ver=1.9.2" media="all">
 <link rel="stylesheet" id="wpsm_team_b-font-awesome-front-css" href="./../wp-content/plugins/team-builder/assets/css/font-awesome/css/font-awesome.min.css?ver=5.8" media="all">
 <link rel="stylesheet" id="wpsm_team_b_bootstrap-front-css" href="./../wp-content/plugins/team-builder/assets/css/bootstrap-front.css?ver=5.8" media="all">
 <link rel="stylesheet" id="wpsm_team_b_team-css" href="./../wp-content/plugins/team-builder/assets/css/team.css?ver=5.8" media="all">
@@ -49,13 +53,16 @@ img.emoji {
 <link rel="stylesheet" id="elementor-frontend-css" href="./../wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.3.1" media="all">
 <style id="elementor-frontend-inline-css">@font-face{font-family:eicons;src:url(./../wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot?5.10.0);src:url(./../wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot?5.10.0#iefix) format("embedded-opentype"),url(./../wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff2?5.10.0) format("woff2"),url(./../wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff?5.10.0) format("woff"),url(./../wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.ttf?5.10.0) format("truetype"),url(./../wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.svg?5.10.0#eicon) format("svg");font-weight:400;font-style:normal}</style>
 <link rel="stylesheet" id="elementor-post-612-css" href="./../wp-content/uploads/elementor/css/post-612.css?ver=1629255508" media="all">
+<link rel="stylesheet" id="embedpress-elementor-css-css" href="./../wp-content/plugins/embedpress/assets/css/embedpress-elementor.css?ver=3.1.1" media="all">
 <link rel="stylesheet" id="elementor-pro-css" href="./../wp-content/plugins/elementor-pro/assets/css/frontend.min.css?ver=3.3.3" media="all">
-<link rel="stylesheet" id="elementor-post-1097-css" href="./../wp-content/uploads/elementor/css/post-1097.css?ver=1629301797" media="all">
+<link rel="stylesheet" id="elementor-post-1097-css" href="./../wp-content/uploads/elementor/css/post-1097.css?ver=1629395372" media="all">
 <link rel="stylesheet" id="hfe-widgets-style-css" href="./../wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=1.6.4" media="all">
 <link rel="stylesheet" id="elementor-post-614-css" href="./../wp-content/uploads/elementor/css/post-614.css?ver=1629305730" media="all">
+<link rel="stylesheet" id="elementor-post-1241-css" href="./../wp-content/uploads/elementor/css/post-1241.css?ver=1629380891" media="all">
 <link rel="stylesheet" id="tablepress-default-css" href="./../wp-content/tablepress-combined.min.css?ver=13" media="all">
+<link rel="stylesheet" id="tablepress-responsive-tables-css" href="./../wp-content/plugins/tablepress-responsive-tables/css/tablepress-responsive.min.css?ver=1.8" media="all">
 <link rel="stylesheet" id="spf-google-web-fonts-css" href="//fonts.googleapis.com/css?family=Open%20Sans:400&#038;display=swap" media="all">
-<link rel="stylesheet" id="google-fonts-1-css" href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;ver=5.8" media="all">
+<link rel="stylesheet" id="google-fonts-1-css" href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;ver=5.8" media="all">
 <link rel="stylesheet" id="elementor-icons-shared-0-css" href="./../wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3" media="all">
 <link rel="stylesheet" id="elementor-icons-fa-solid-css" href="./../wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3" media="all">
 <link rel="stylesheet" id="elementor-icons-fa-brands-css" href="./../wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3" media="all">
@@ -67,6 +74,7 @@ flexibility(document.documentElement);
 <![endif]-->
 <script src="./../wp-includes/js/jquery/jquery.min.js?ver=3.6.0" id="jquery-core-js"></script>
 <script src="./../wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>
+<script src="./../wp-content/plugins/embedpress/assets/js/pdfobject.min.js?ver=3.1.1" id="embedpress-pdfobject-js"></script>
 <script src="./../wp-content/plugins/team-builder/assets/js/owl.carousel.min.js?ver=5.8" id="wpsm_team_b_owl_carousel_min_js-js"></script>
 <link rel="https://api.w.org/" href="./../wp-json/index.html">
 <link rel="alternate" type="application/json" href="./../wp-json/wp/v2/pages/1097/index.html">
@@ -112,28 +120,27 @@ flexibility(document.documentElement);
 																									<div class="site-header-primary-section-right site-header-section ast-flex ast-grid-right-section">
 										<div class="ast-builder-menu-1 ast-builder-menu ast-flex ast-builder-menu-1-focus-item ast-builder-layout-element site-header-focus-item" data-section="section-hb-menu-1">
 			<div class="ast-main-header-bar-alignment"><div class="main-header-bar-navigation"><nav class="ast-flex-grow-1 navigation-accessibility site-header-focus-item" id="site-navigation" aria-label="Site Navigation" itemtype="https://schema.org/SiteNavigationElement" itemscope="itemscope"><div class="main-navigation ast-inline-flex"><ul id="ast-hf-menu-1" class="main-header-menu ast-nav-menu ast-flex  submenu-with-border astra-menu-animation-slide-down  stack-on-mobile">
-<li id="menu-item-643" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-643"><a href="./../index.html" class="menu-link">Home</a></li>
-<li id="menu-item-807" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-807"><a href="./../areas/index.html" class="menu-link">Areas</a></li>
-<li id="menu-item-857" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-857">
+<li id="menu-item-1175" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1175"><a href="./../index.html" class="menu-link">Home</a></li>
+<li id="menu-item-1174" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1174"><a href="./../areas/index.html" class="menu-link">Areas</a></li>
+<li id="menu-item-1176" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1176">
 <a href="#" class="menu-link">Team</a><button class="ast-menu-toggle" aria-expanded="false"><span class="screen-reader-text">Menu Toggle</span><span class="ast-icon icon-arrow"></span></button>
 <ul class="sub-menu">
-	<li id="menu-item-843" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-843"><a href="./../teachers/index.html" class="menu-link">Teachers</a></li>
-	<li id="menu-item-878" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-878"><a href="./../students/index.html" class="menu-link">Students</a></li>
-	<li id="menu-item-913" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-913"><a href="./../collaborators/index.html" class="menu-link">Collaborators</a></li>
+	<li id="menu-item-1173" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1173"><a href="./../teachers/index.html" class="menu-link">Teachers</a></li>
+	<li id="menu-item-1171" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1171"><a href="./../collaborators/index.html" class="menu-link">Collaborators</a></li>
+	<li id="menu-item-1172" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1172"><a href="./../students/index.html" class="menu-link">Students</a></li>
 </ul>
 </li>
-<li id="menu-item-930" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-930">
+<li id="menu-item-1177" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1177">
 <a href="#" class="menu-link">Publications</a><button class="ast-menu-toggle" aria-expanded="false"><span class="screen-reader-text">Menu Toggle</span><span class="ast-icon icon-arrow"></span></button>
 <ul class="sub-menu">
-	<li id="menu-item-940" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-940"><a href="./../conference/index.html" class="menu-link">Conference</a></li>
-	<li id="menu-item-967" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-967"><a href="./../journals/index.html" class="menu-link">Journals</a></li>
-	<li id="menu-item-995" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-995"><a href="./../book/index.html" class="menu-link">Book</a></li>
-	<li id="menu-item-1010" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1010"><a href="./../patents/index.html" class="menu-link">Patents</a></li>
+	<li id="menu-item-1161" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1161"><a href="./../conf_jour/index.html" class="menu-link">Conference + Journal</a></li>
+	<li id="menu-item-1168" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1168"><a href="./../book/index.html" class="menu-link">Book</a></li>
+	<li id="menu-item-1167" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1167"><a href="./../patents/index.html" class="menu-link">Patents</a></li>
 </ul>
 </li>
-<li id="menu-item-1022" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1022"><a href="./../news/index.html" class="menu-link">News</a></li>
-<li id="menu-item-1090" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1090"><a href="./../gallery/index.html" class="menu-link">Gallery</a></li>
-<li id="menu-item-1108" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1097 current_page_item menu-item-1108"><a href="./index.html" aria-current="page" class="menu-link">Projects</a></li>
+<li id="menu-item-1166" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1166"><a href="./../news/index.html" class="menu-link">News</a></li>
+<li id="menu-item-1165" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1165"><a href="./../gallery/index.html" class="menu-link">Gallery</a></li>
+<li id="menu-item-1164" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1097 current_page_item menu-item-1164"><a href="./index.html" aria-current="page" class="menu-link">Projects</a></li>
 </ul></div></nav></div></div>		</div>
 									</div>
 												</div>
@@ -186,7 +193,7 @@ flexibility(document.documentElement);
 		
 				<div data-elementor-type="wp-page" data-elementor-id="1097" class="elementor elementor-1097" data-elementor-settings="[]">
 							<div class="elementor-section-wrap">
-							<section class="elementor-section elementor-top-section elementor-element elementor-element-2f9c42e elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2f9c42e" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+							<section data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-section elementor-top-section elementor-element elementor-element-2f9c42e elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2f9c42e" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 							<div class="elementor-background-overlay"></div>
 							<div class="elementor-container elementor-column-gap-no">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3819f15f" data-id="3819f15f" data-element_type="column">
@@ -199,239 +206,161 @@ flexibility(document.documentElement);
 		</div>
 							</div>
 		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-6203abca elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6203abca" data-element_type="section">
+				<section data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-section elementor-top-section elementor-element elementor-element-6203abca elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6203abca" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-77dfc6dd" data-id="77dfc6dd" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-324b4fa8 elementor-widget elementor-widget-shortcode" data-id="324b4fa8" data-element_type="widget" data-widget_type="shortcode.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-shortcode">
-<table id="tablepress-4" class="tablepress tablepress-id-4">
+<table id="tablepress-4" class="tablepress tablepress-id-4 tablepress-responsive">
 <thead>
 <tr class="row-1 odd">
-	<th class="column-1">Year</th>
-<th class="column-2">name</th>
-<th class="column-3">copyright</th>
-<th class="column-4">About Project </th>
-<th class="column-5">Status: </th>
-<th class="column-6">Project Brief</th>
-<th class="column-7">Demo link </th>
+	<th class="column-1">Number</th>
+<th class="column-2">Year</th>
+<th class="column-3">name</th>
+<th class="column-4">copyright</th>
+<th class="column-5">About Project </th>
+<th class="column-6">Status: </th>
+<th class="column-7">Project Brief</th>
+<th class="column-8">Demo link </th>
 </tr>
 </thead>
 <tbody class="row-hover">
 <tr class="row-2 even">
-	<td class="column-1">2021</td>
-<td class="column-2">PEA</td>
-<td class="column-3">applied</td>
-<td class="column-4">webservice and App /Automation</td>
-<td class="column-5">Finished</td>
-<td class="column-6"></td>
+	<td class="column-1"></td>
+<td class="column-2">2021</td>
+<td class="column-3">PEA</td>
+<td class="column-4">applied</td>
+<td class="column-5">webservice and App /Automation</td>
+<td class="column-6">Finished</td>
 <td class="column-7"></td>
+<td class="column-8"></td>
 </tr>
 <tr class="row-3 odd">
 	<td class="column-1"></td>
-<td class="column-2">OCR</td>
-<td class="column-3">---</td>
-<td class="column-4">deeplearning  /Automation</td>
-<td class="column-5">Finished</td>
-<td class="column-6">本项目致力于使用神经网络模型，创建一个债卷图片数据的文本检测与识别系统，用来提取财务报表等债卷图片文字信息。    当下最流行的文本检测算法是，DB算法。DB算法能够识别扭曲文本，这是传统CTPN和EAST等算法无法相比的。而文本识别算法，当下最流行的就是CRNN网络，使用双向循环网络，能够很好的结合文本前后的相关性来提高识别精度。</td>
-<td class="column-7">https://www.bilibili.com/video/BV1A5411T7do</td>
+<td class="column-2">2021</td>
+<td class="column-3">OCR</td>
+<td class="column-4">---</td>
+<td class="column-5">deeplearning  /Automation</td>
+<td class="column-6">Finished</td>
+<td class="column-7">			<a class="paoc-popup popupaoc-link" href="javascript:void(0);" data-target="popuppaoc-modal-1255" data-conf='{"content":{ "target" : "#paoc-modal-7", "effect": "fadein", "positionX": "center", "positionY": "center", "fullscreen": false, "speedIn": 300, "speedOut": 300, "delay": 150, "width": "60%" },"loader":{"active": true},"overlay":{"active": true}}'>View</a>		</td>
+<td class="column-8">https://www.bilibili.com/video/BV1A5411T7do</td>
 </tr>
 <tr class="row-4 even">
 	<td class="column-1"></td>
-<td class="column-2">RDK service robot</td>
-<td class="column-3">---</td>
-<td class="column-4">deeplearning and robotic</td>
-<td class="column-5">Finished</td>
-<td class="column-6"></td>
-<td class="column-7">https://www.bilibili.com/video/BV1LX4y1A7Mp</td>
+<td class="column-2">2021</td>
+<td class="column-3">RDK service robot</td>
+<td class="column-4">---</td>
+<td class="column-5">deeplearning and robotic</td>
+<td class="column-6">Finished</td>
+<td class="column-7"></td>
+<td class="column-8">https://www.bilibili.com/video/BV1LX4y1A7Mp</td>
 </tr>
 <tr class="row-5 odd">
 	<td class="column-1"></td>
-<td class="column-2">Sj</td>
-<td class="column-3">have the copyright</td>
-<td class="column-4">webservice and App /Automation</td>
-<td class="column-5">Finished</td>
-<td class="column-6">In our daily life it may happened that we use restaurant or canteen to eat food. But for the restaurant manager its very critical to have and prepare the sufficient material for shop. Even most of the restaurant and canteen manager are have the problem about quantity of material that they need daily and avoid wastage. Beside some restaurant have some food in their daily menu which may not order but they should have made it daily. On the other side to improve the quality of food knowing the customer feedback is more important and the manager can plan to make a specific food more to make them happy and absorb more customer. All this idea intended to have a tool called “SJ(shitong jinagli)) to help customer and food court managers </td>
-<td class="column-7"></td>
+<td class="column-2">2021</td>
+<td class="column-3">Sj</td>
+<td class="column-4">have the copyright</td>
+<td class="column-5">webservice and App /Automation</td>
+<td class="column-6">Finished</td>
+<td class="column-7">			<a class="paoc-popup popupaoc-link" href="javascript:void(0);" data-target="popuppaoc-modal-1261" data-conf='{"content":{ "target" : "#paoc-modal-6", "effect": "fadein", "positionX": "center", "positionY": "center", "fullscreen": false, "speedIn": 300, "speedOut": 300, "delay": 150, "width": "60%" },"loader":{"active": true},"overlay":{"active": true}}'>View</a>		</td>
+<td class="column-8"></td>
 </tr>
 <tr class="row-6 even">
-	<td class="column-1">2020</td>
-<td class="column-2">Helmet </td>
-<td class="column-3">have the copyright</td>
-<td class="column-4">deeplearning and Automation</td>
-<td class="column-5">Finished</td>
-<td class="column-6">In recent years, the rapid development of artificial intelligence, many disciplines and related industries are trying to use artificial intelligence to solve problems. At present, many landing applications based on artificial intelligence have changed our work and life. In particular, the technology related to machine vision has been widely used in industrial production, medicine, security check, criminal investigation and other fields. In the industrial production environment, there are many accidents and unsafe behaviors of workers, such as entering the workplace beyond the authority, operating in violation of regulations, and failing to properly wear labor protection products. These accidents not only threaten the life and health of workers, but also cause losses to enterprises. The helmet is a kind of widely used labor protection supplies, which is applied in construction sites, production workshops, aerial work and other scenes. Wearing the safety helmet in these scenes can effectively ensure the safety of workers and prevent accidents. Therefore, this project USES deep learning technology to develop a helmet wearing detection system, which can detect whether the staff are wearing helmets in real time, so as to prevent safety accidents caused by not wearing helmets.</td>
-<td class="column-7">https://www.bilibili.com/video/BV1t64y147Qf</td>
+	<td class="column-1"></td>
+<td class="column-2">2020</td>
+<td class="column-3">Helmet </td>
+<td class="column-4">have the copyright</td>
+<td class="column-5">deeplearning and Automation</td>
+<td class="column-6">Finished</td>
+<td class="column-7">			<a class="paoc-popup popupaoc-link" href="javascript:void(0);" data-target="popuppaoc-modal-1262" data-conf='{"content":{ "target" : "#paoc-modal-5", "effect": "fadein", "positionX": "center", "positionY": "center", "fullscreen": false, "speedIn": 300, "speedOut": 300, "delay": 150, "width": "60%" },"loader":{"active": true},"overlay":{"active": true}}'>View</a>		<br>
+</td>
+<td class="column-8">https://www.bilibili.com/video/BV1t64y147Qf<br>
+<br>
+https://www.bilibili.com/video/BV1qv411J7Pc<br>
+<br>
+https://www.bilibili.com/video/BV1kL411W7Mp</td>
 </tr>
 <tr class="row-7 odd">
 	<td class="column-1"></td>
-<td class="column-2"></td>
-<td class="column-3"></td>
-<td class="column-4"></td>
-<td class="column-5"></td>
-<td class="column-6"></td>
-<td class="column-7">https://www.bilibili.com/video/BV1qv411J7Pc</td>
+<td class="column-2">2020</td>
+<td class="column-3">Slas</td>
+<td class="column-4">have the copyright</td>
+<td class="column-5">webservice and App for </td>
+<td class="column-6">Finished</td>
+<td class="column-7"></td>
+<td class="column-8">https://www.bilibili.com/video/BV1g64y147s9<br>
+<br>
+https://www.bilibili.com/video/BV1X44y1q71R<br>
+<br>
+https://www.bilibili.com/video/BV1Sv411J73d<br>
+<br>
+https://www.bilibili.com/video/BV1Xh411h7af<br>
+<br>
+https://www.bilibili.com/video/BV1ev411J7XH<br>
+<br>
+https://www.bilibili.com/video/BV1yb4y1r7Qg<br>
+<br>
+</td>
 </tr>
 <tr class="row-8 even">
 	<td class="column-1"></td>
-<td class="column-2"></td>
-<td class="column-3"></td>
-<td class="column-4"></td>
-<td class="column-5"></td>
-<td class="column-6"></td>
-<td class="column-7">https://www.bilibili.com/video/BV1kL411W7Mp</td>
+<td class="column-2">2019</td>
+<td class="column-3">VAR</td>
+<td class="column-4">have the copyright/'published as the paper </td>
+<td class="column-5">Sport Automation</td>
+<td class="column-6">Finished</td>
+<td class="column-7">			<a class="paoc-popup popupaoc-link" href="javascript:void(0);" data-target="popuppaoc-modal-1263" data-conf='{"content":{ "target" : "#paoc-modal-4", "effect": "fadein", "positionX": "center", "positionY": "center", "fullscreen": false, "speedIn": 300, "speedOut": 300, "delay": 150, "width": "60%" },"loader":{"active": true},"overlay":{"active": true}}'>View</a>		<br>
+</td>
+<td class="column-8">https://www.bilibili.com/video/BV1jU4y137PH</td>
 </tr>
 <tr class="row-9 odd">
 	<td class="column-1"></td>
-<td class="column-2"></td>
-<td class="column-3"></td>
-<td class="column-4"></td>
+<td class="column-2">2019</td>
+<td class="column-3">PI Scada</td>
+<td class="column-4">published as the paper : Ata Jahangir Moshayedi,Atanu Shuvam Roy,Lifa Liao,Shuai Li, Raspberry Pi SCADA Zonal based System for Agricultural Plant Monitoring</td>
 <td class="column-5"></td>
 <td class="column-6"></td>
-<td class="column-7"></td>
+<td class="column-7">			<a class="paoc-popup popupaoc-link" href="javascript:void(0);" data-target="popuppaoc-modal-1264" data-conf='{"content":{ "target" : "#paoc-modal-3", "effect": "fadein", "positionX": "center", "positionY": "center", "fullscreen": false, "speedIn": 300, "speedOut": 300, "delay": 150, "width": "60%" },"loader":{"active": true},"overlay":{"active": true}}'>View</a>		<br>
+</td>
+<td class="column-8"></td>
 </tr>
 <tr class="row-10 even">
 	<td class="column-1"></td>
-<td class="column-2">Slas</td>
-<td class="column-3">have the copyright</td>
-<td class="column-4">webservice and App for </td>
-<td class="column-5">Finished</td>
-<td class="column-6"></td>
-<td class="column-7">https://www.bilibili.com/video/BV1g64y147s9</td>
+<td class="column-2">2019</td>
+<td class="column-3">智能诊断系统<br>
+DSS（Diagnostic Smart System）</td>
+<td class="column-4">have the copyright</td>
+<td class="column-5">webservice and App for Automation</td>
+<td class="column-6">Finished</td>
+<td class="column-7">			<a class="paoc-popup popupaoc-link" href="javascript:void(0);" data-target="popuppaoc-modal-1265" data-conf='{"content":{ "target" : "#paoc-modal-2", "effect": "fadein", "positionX": "center", "positionY": "center", "fullscreen": false, "speedIn": 300, "speedOut": 300, "delay": 150, "width": "60%" },"loader":{"active": true},"overlay":{"active": true}}'>View</a>		<br>
+</td>
+<td class="column-8"></td>
 </tr>
 <tr class="row-11 odd">
 	<td class="column-1"></td>
-<td class="column-2"></td>
-<td class="column-3"></td>
-<td class="column-4"></td>
+<td class="column-2">2018</td>
+<td class="column-3">ISR </td>
+<td class="column-4">Applied for patent </td>
 <td class="column-5"></td>
-<td class="column-6"></td>
-<td class="column-7">https://www.bilibili.com/video/BV1X44y1q71R</td>
+<td class="column-6">Phase 1 Finished</td>
+<td class="column-7">			<a class="paoc-popup popupaoc-link" href="javascript:void(0);" data-target="popuppaoc-modal-1266" data-conf='{"content":{ "target" : "#paoc-modal-1", "effect": "fadein", "positionX": "center", "positionY": "center", "fullscreen": false, "speedIn": 300, "speedOut": 300, "delay": 150, "width": "60%" },"loader":{"active": true},"overlay":{"active": true}}'>View</a>		<br>
+</td>
+<td class="column-8"></td>
 </tr>
 <tr class="row-12 even">
 	<td class="column-1"></td>
-<td class="column-2"></td>
-<td class="column-3"></td>
-<td class="column-4"></td>
+<td class="column-2">2019</td>
+<td class="column-3">Hongma</td>
+<td class="column-4">Costmized AGV service robot</td>
 <td class="column-5"></td>
-<td class="column-6"></td>
-<td class="column-7">https://www.bilibili.com/video/BV1Sv411J73d</td>
-</tr>
-<tr class="row-13 odd">
-	<td class="column-1"></td>
-<td class="column-2"></td>
-<td class="column-3"></td>
-<td class="column-4"></td>
-<td class="column-5"></td>
-<td class="column-6"></td>
-<td class="column-7">https://www.bilibili.com/video/BV1Xh411h7af</td>
-</tr>
-<tr class="row-14 even">
-	<td class="column-1"></td>
-<td class="column-2"></td>
-<td class="column-3"></td>
-<td class="column-4"></td>
-<td class="column-5"></td>
-<td class="column-6"></td>
-<td class="column-7">https://www.bilibili.com/video/BV1ev411J7XH</td>
-</tr>
-<tr class="row-15 odd">
-	<td class="column-1"></td>
-<td class="column-2"></td>
-<td class="column-3"></td>
-<td class="column-4"></td>
-<td class="column-5"></td>
-<td class="column-6"></td>
-<td class="column-7">https://www.bilibili.com/video/BV1yb4y1r7Qg</td>
-</tr>
-<tr class="row-16 even">
-	<td class="column-1">2019</td>
-<td class="column-2">VAR</td>
-<td class="column-3">have the copyright/'published as the paper </td>
-<td class="column-4">Sport Automation</td>
-<td class="column-5">Finished</td>
-<td class="column-6">Abstract—Today’s game quality is more affected by referee decisions. The history shows that the error in a referee’s decision may change the whole result of a game. It seems to<br>
-rely on just the referee’s decision and always combines with the errors. This fact is even bolded in important games like the World Cup or Olympics which may cause the rank of the team, players, etc. Recently, to solve this problem, the new concept of VAR (video assistant referee) has been introduced and had also been hired during the football World Cup match 2018. Even some methods like video check-ins in volleyball games or bypass signal in Swordsmanship (sword fighting) long back was used. But still, so many demand games are missed. Statistically, almost approximately 8 hundred million people are playing table tennis in the world but due to the ball speed in this game which sometimes increases up to 69.9 miles per hour (112.4931 km/h) which brings the limitation to hire and use the VAR systems. In this research paper, a novel VAR system (TTV system) based on Kinect and Raspberry pi has been presented. The main aspect of this design is to have a portable system which can be used for any type of LCDsystem and help the referees to count the ball better during the game to have a more qualified game. In the proposed TTV algorithm, the two methods of contour and depth are merged to have better ball detection. The experiment results in showing the proposed algorithm and systems success in real game and its ability to implement in the real game which has not been reported before.</td>
-<td class="column-7">https://www.bilibili.com/video/BV1jU4y137PH</td>
-</tr>
-<tr class="row-17 odd">
-	<td class="column-1"></td>
-<td class="column-2">PI Scada</td>
-<td class="column-3">published as the paper : Ata Jahangir Moshayedi,Atanu Shuvam Roy,Lifa Liao,Shuai Li, Raspberry Pi SCADA Zonal based System for Agricultural Plant Monitoring</td>
-<td class="column-4"></td>
-<td class="column-5"></td>
-<td class="column-6">SCADA (Supervisory Control and Data Acquisition) and DCS (Distributed Control System) are both famous terms in automation and they both have critical rules. There is rarely an industry in the world which are not auditing their outcome based on one of this terms. But IOT developed in recent years, mixing the functionality of these two terms has been going on too with various security challenges involved. Even some previous issues like the price of software and easy extendibility of them make the way for small industries to have their benefits. In this research paper along with the designing and comparison, two small SCADA systems for agricultural applications tries to reduce the size as well as address a zonal method to investigate the security problems. Till these days’ researchers have shown lots of development to reduce the scada cost in different manner but, having the compact, powerful and small size host for SCADA system has not been reported before. One of the novel aspect in this design is hiring the Raspberry Pi as the smallest computer instead of PC or laptop which along with reducing the system cost can also reduce the whole design system. Beside, Web based SCADA system has been successfully designed here and used. This paper discusses the context of local as well as remote monitoring of an agricultural plant environment with the help of a Raspberry Pi network through which a SCADA System was established. This paper aims to prove that a far more efficient and cost-effective along a secure SCADA System for monitoring is possible with the lowest of efforts. So, having zonal idea will help system to achieve the aim of secure sensor<br>
-monitoring without any kind of outside interference. The result shows the successful design and implementation of zonal idea as well as the perfect usage of Raspberry Pi as a small andreliable host.</td>
+<td class="column-6">On Going</td>
 <td class="column-7"></td>
-</tr>
-<tr class="row-18 even">
-	<td class="column-1"></td>
-<td class="column-2">智能诊断系统<br>
-DSS（Diagnostic Smart System）</td>
-<td class="column-3">have the copyright</td>
-<td class="column-4">webservice and App for Automation</td>
-<td class="column-5">Finished</td>
-<td class="column-6">CRM is one of the key point of any product these days. Many products fail because of lack of CRM. The key of CRM is the relationship between customer and manufacturer. It means that one customer needs good service and the other manufacturer needs more celling products. In the other word, CRM is a business strategy to select valuable customers and manage the relationships with them. Its goal is to reduce sales cycle and cost, increase revenue and find new markets and channels to expand business by improving customer value, satisfaction, profitability and loyalty. On the other hand, study on the products shows, in terms of performance and working state, product performance sometimes fails due to some working conditions which are not considered and observed by the designer or may not be considered due to the reason of material site. Also testing the product in all environment is not possible and over than time it may be very expensive for some products. Based on knowing the importance of CRM concept; DSS is a system which try to connect the rings between manufacture from one side and customer from other side in an intelligent way. Many manufacturers to make their working cycle simpler tried to hand over their support system to customer service section and it may have happened the data from customer service which may include the product Diffraction, Fault and any error type will not reach the manufacture for study and rectification.</td>
-<td class="column-7"></td>
-</tr>
-<tr class="row-19 odd">
-	<td class="column-1"></td>
-<td class="column-2"></td>
-<td class="column-3"></td>
-<td class="column-4"></td>
-<td class="column-5"></td>
-<td class="column-6">CRM是现在任何产品的关键要素之一，许多产品的失败都是因为缺少客户关系管理。客户关系管理的关键在于客户与制造商之间的关系。这意味着客户需要好的服务，制造商需要更多的产品。换句话说，客户关系管理是一种商业策略，用来选择有价值的客户并管理和他们之间的关系。其目标是通过提高客户价值、满意度、盈利水平和忠诚度来降低销售周期和成本，增加收入，寻找新的市场和渠道来拓展业务。另一方面，对产品的研究表明，在性能和工作状态方面，产品性能有时会出现问题，这是由于设计师所未提前考虑到的设备工作环境，也可能是由于材料场地的原因。并且，在所有环境中测试产品是不现实的，而且一段时间过后某些产品可能会非常昂贵。基于对CRM概念重要性的认识，DSS是一个智能系统，作为环连接一方的制造商和另一方的客户。很多厂家为了简化工作周期，将他们的支持系统交给客服部门，而可能会发生的情况是，客服方的数据包括产品的衍射、故障和任何类型的错误都无法反馈给厂家让他们进行研究和整改</td>
-<td class="column-7"></td>
-</tr>
-<tr class="row-20 even">
-	<td class="column-1">2018</td>
-<td class="column-2">ISR </td>
-<td class="column-3">Applied for patent </td>
-<td class="column-4"></td>
-<td class="column-5">Phase 1 Finished</td>
-<td class="column-6">At present, our society increasing aging population, labor service costs, labor supply and demand and there is a huge demand for labor; users increasingly emphasize fresh, thoughtful consumer experience, businesses pursuit of low cost and high efficiency of the purpose of profit, which service robot development and application to create a broad market prospect.The development of service robots contending products to Alibaba, represented by Ma Fresh green box service robots is to enter the 2018 First China International Import Expo exhibition site, it is to see the style. At present, the development of service robots following defects:<br>
-· Single function: only for a specific environment to achieve specific functions, has a tendency toys;<br>
-· Not flexible enough: You can not use the flexible robotic arm, unable to move, the need for orbit;<br>
-· Unable Collaboration: robot exists only as an individual, no scheduling between multiple robots<br>
-To solve these problems, the project team proposed a "service robot integration and collaborative platform" solution, including:<br>
-· According to insufficient research and development of service robots designed "highly integrated" robot, which set multiple functions in one of the robot;<br>
-· Even if the robot should be more integrated functionality on demand, a combination of functional modules designed "low coupling", to facilitate the combination of different functions and modules, and dismantling;<br>
-· To overcome the lack of independent operation of a conventional service robots, designed the "synergy" type of robot system scheduling, task more robots will be "total station" unified scheduling and distribution;<br>
-The project is to overcome the traditional single function service robots, less flexible, more individual robot can not be coordinated scheduling problem and design a highly integrated, low coupling, can be scheduled cooperative multi-robot scenes and service platform, can be put into restaurants, hotels, bar, bath center, snack shop and a hospital nurse stations, wards and nursing homes and other service establishments. The product has been put into use Jiangxi University canteen, national invention patent applications related to the results of nine published papers related to eight.<br>
-</td>
-<td class="column-7"></td>
-</tr>
-<tr class="row-21 odd">
-	<td class="column-1"></td>
-<td class="column-2"></td>
-<td class="column-3"></td>
-<td class="column-4"></td>
-<td class="column-5"></td>
-<td class="column-6"></td>
-<td class="column-7"></td>
-</tr>
-<tr class="row-22 even">
-	<td class="column-1">Current Project </td>
-<td class="column-2"></td>
-<td class="column-3"></td>
-<td class="column-4"></td>
-<td class="column-5"></td>
-<td class="column-6"></td>
-<td class="column-7"></td>
-</tr>
-<tr class="row-23 odd">
-	<td class="column-1">2019- now </td>
-<td class="column-2">Hongma</td>
-<td class="column-3">Costmized AGV service robot</td>
-<td class="column-4"></td>
-<td class="column-5"></td>
-<td class="column-6"></td>
-<td class="column-7"></td>
+<td class="column-8"></td>
 </tr>
 </tbody>
 </table>
-<!-- #tablepress-4 from cache -->
 </div>
 				</div>
 				</div>
@@ -439,13 +368,26 @@ The project is to overcome the traditional single function service robots, less 
 		</div>
 							</div>
 		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-883c41b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="883c41b" data-element_type="section">
+				<section data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-section elementor-top-section elementor-element elementor-element-883c41b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="883c41b" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7de7b55" data-id="7de7b55" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-6db28f3 elementor-widget elementor-widget-text-editor" data-id="6db28f3" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
 								<p><strong>Disclaimer: This Page is still under construction</strong></p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-e6d8da3 elementor-align-center elementor-widget elementor-widget-button" data-id="e6d8da3" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="./../wp-content/uploads/2021/08/rarl_project_list.xlsx" class="elementor-button-link elementor-button elementor-size-xl" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon elementor-align-icon-left">
+				<i aria-hidden="true" class="fas fa-book"></i>			</span>
+						<span class="elementor-button-text">Download Project List (XLSX)</span>
+		</span>
+					</a>
+		</div>
+				</div>
 				</div>
 					</div>
 		</div>
@@ -476,7 +418,7 @@ The project is to overcome the traditional single function service robots, less 
 		<div class="hfe-before-footer-wrap">
 			<div class="footer-width-fixer">		<div data-elementor-type="wp-post" data-elementor-id="614" class="elementor elementor-614" data-elementor-settings="[]">
 							<div class="elementor-section-wrap">
-							<section class="elementor-section elementor-top-section elementor-element elementor-element-f5b3eb4 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="f5b3eb4" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+							<section data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-section elementor-top-section elementor-element elementor-element-f5b3eb4 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="f5b3eb4" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 						<div class="elementor-container elementor-column-gap-no">
 					<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-d5d9091" data-id="d5d9091" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
@@ -630,28 +572,27 @@ The project is to overcome the traditional single function service robots, less 
 					<div class="ast-mobile-popup-content">
 								<div class="ast-builder-menu-mobile ast-builder-menu ast-builder-menu-mobile-focus-item ast-builder-layout-element site-header-focus-item" data-section="section-header-mobile-menu">
 			<div class="ast-main-header-bar-alignment"><div class="main-header-bar-navigation"><nav class="ast-flex-grow-1 navigation-accessibility site-header-focus-item" id="site-navigation" aria-label="Site Navigation" itemtype="https://schema.org/SiteNavigationElement" itemscope="itemscope"><div class="main-navigation"><ul id="ast-hf-mobile-menu" class="main-header-menu ast-nav-menu ast-flex  submenu-with-border astra-menu-animation-fade  stack-on-mobile">
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-643"><a href="./../index.html" class="menu-link">Home</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-807"><a href="./../areas/index.html" class="menu-link">Areas</a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-857">
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1175"><a href="./../index.html" class="menu-link">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1174"><a href="./../areas/index.html" class="menu-link">Areas</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1176">
 <a href="#" class="menu-link">Team</a><button class="ast-menu-toggle" aria-expanded="false"><span class="screen-reader-text">Menu Toggle</span><span class="ast-icon icon-arrow"></span></button>
 <ul class="sub-menu">
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-843"><a href="./../teachers/index.html" class="menu-link">Teachers</a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-878"><a href="./../students/index.html" class="menu-link">Students</a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-913"><a href="./../collaborators/index.html" class="menu-link">Collaborators</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1173"><a href="./../teachers/index.html" class="menu-link">Teachers</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1171"><a href="./../collaborators/index.html" class="menu-link">Collaborators</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1172"><a href="./../students/index.html" class="menu-link">Students</a></li>
 </ul>
 </li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-930">
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1177">
 <a href="#" class="menu-link">Publications</a><button class="ast-menu-toggle" aria-expanded="false"><span class="screen-reader-text">Menu Toggle</span><span class="ast-icon icon-arrow"></span></button>
 <ul class="sub-menu">
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-940"><a href="./../conference/index.html" class="menu-link">Conference</a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-967"><a href="./../journals/index.html" class="menu-link">Journals</a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-995"><a href="./../book/index.html" class="menu-link">Book</a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1010"><a href="./../patents/index.html" class="menu-link">Patents</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1161"><a href="./../conf_jour/index.html" class="menu-link">Conference + Journal</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1168"><a href="./../book/index.html" class="menu-link">Book</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1167"><a href="./../patents/index.html" class="menu-link">Patents</a></li>
 </ul>
 </li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1022"><a href="./../news/index.html" class="menu-link">News</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1090"><a href="./../gallery/index.html" class="menu-link">Gallery</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1097 current_page_item menu-item-1108"><a href="./index.html" aria-current="page" class="menu-link">Projects</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1166"><a href="./../news/index.html" class="menu-link">News</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1165"><a href="./../gallery/index.html" class="menu-link">Gallery</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1097 current_page_item menu-item-1164"><a href="./index.html" aria-current="page" class="menu-link">Projects</a></li>
 </ul></div></nav></div></div>		</div>
 							</div>
 					<div class="ast-desktop-popup-content">
@@ -683,23 +624,78 @@ The project is to overcome the traditional single function service robots, less 
 	</footer><!-- #colophon -->
 	</div>
 <!-- #page -->
-<link rel="stylesheet" id="e-animations-css" href="./../wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.3.1" media="all">
+		<div data-elementor-type="popup" data-elementor-id="1241" class="elementor elementor-1241 elementor-location-popup" data-elementor-settings="{&quot;entrance_animation&quot;:&quot;fadeIn&quot;,&quot;exit_animation&quot;:&quot;fadeIn&quot;,&quot;entrance_animation_duration&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.2,&quot;sizes&quot;:[]},&quot;triggers&quot;:[],&quot;timing&quot;:[]}">
+		<div class="elementor-section-wrap">
+					<section data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-section elementor-top-section elementor-element elementor-element-316fed91 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="316fed91" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7f03ae0b" data-id="7f03ae0b" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<section data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-section elementor-inner-section elementor-element elementor-element-21116bc4 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default" data-id="21116bc4" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-54e9399c" data-id="54e9399c" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-19d7b910 elementor-align-right elementor-widget__width-auto elementor-absolute elementor-widget elementor-widget-button" data-id="19d7b910" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#elementor-action%3Aaction%3Dpopup%3Aclose%26settings%3DeyJkb19ub3Rfc2hvd19hZ2FpbiI6IiJ9" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon elementor-align-icon-left">
+				<svg xmlns="http://www.w3.org/2000/svg" id="ed642368-73fe-4264-8374-5b4f08ac9206" data-name="Layer 1" width="26.8701" height="26.8701" viewbox="0 0 26.8701 26.8701"><title>Close</title>
+<polygon points="26.87 2.121 24.749 0 13.435 11.314 2.121 0 0 2.121 11.314 13.435 0 24.749 2.121 26.87 13.435 15.556 24.749 26.87 26.87 24.749 15.556 13.435 26.87 2.121" style="fill-rule:evenodd"></polygon></svg>			</span>
+						<span class="elementor-button-text"></span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-109a6ca8 elementor-widget elementor-widget-heading" data-id="109a6ca8" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Insert Title Here</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-280a13b7 elementor-align-left elementor-mobile-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="280a13b7" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+					<a href="https://library.elementor.com/education-online-courses/course-page/">					<span class="elementor-icon-list-text">Insert Description Here</span>
+											</a>
+									</li>
+						</ul>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+					</div>
+		</div>
+							</div>
+		</section>
+				</div>
+		</div>
+		<link rel="stylesheet" id="e-animations-css" href="./../wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.3.1" media="all">
 <script id="astra-theme-js-js-extra">
 var astra = {"break_point":"921","isRtl":""};
 </script>
 <script src="./../wp-content/themes/astra/assets/js/minified/frontend.min.js?ver=3.6.8" id="astra-theme-js-js"></script>
+<script src="./../wp-content/plugins/modal-block/dist/modal.js?ver=1629379739" id="bod-modal-block-js-js"></script>
 <script id="pt-cv-content-views-script-js-extra">
-var PT_CV_PUBLIC = {"_prefix":"pt-cv-","page_to_show":"5","_nonce":"0a5189fdd7","is_admin":"","is_mobile":"","ajaxurl":".\/wp-admin\/admin-ajax.php","lang":"","loading_image_src":"data:image\/gif;base64,R0lGODlhDwAPALMPAMrKygwMDJOTkz09PZWVla+vr3p6euTk5M7OzuXl5TMzMwAAAJmZmWZmZszMzP\/\/\/yH\/C05FVFNDQVBFMi4wAwEAAAAh+QQFCgAPACwAAAAADwAPAAAEQvDJaZaZOIcV8iQK8VRX4iTYoAwZ4iCYoAjZ4RxejhVNoT+mRGP4cyF4Pp0N98sBGIBMEMOotl6YZ3S61Bmbkm4mAgAh+QQFCgAPACwAAAAADQANAAAENPDJSRSZeA418itN8QiK8BiLITVsFiyBBIoYqnoewAD4xPw9iY4XLGYSjkQR4UAUD45DLwIAIfkEBQoADwAsAAAAAA8ACQAABC\/wyVlamTi3nSdgwFNdhEJgTJoNyoB9ISYoQmdjiZPcj7EYCAeCF1gEDo4Dz2eIAAAh+QQFCgAPACwCAAAADQANAAAEM\/DJBxiYeLKdX3IJZT1FU0iIg2RNKx3OkZVnZ98ToRD4MyiDnkAh6BkNC0MvsAj0kMpHBAAh+QQFCgAPACwGAAAACQAPAAAEMDC59KpFDll73HkAA2wVY5KgiK5b0RRoI6MuzG6EQqCDMlSGheEhUAgqgUUAFRySIgAh+QQFCgAPACwCAAIADQANAAAEM\/DJKZNLND\/kkKaHc3xk+QAMYDKsiaqmZCxGVjSFFCxB1vwy2oOgIDxuucxAMTAJFAJNBAAh+QQFCgAPACwAAAYADwAJAAAEMNAs86q1yaWwwv2Ig0jUZx3OYa4XoRAfwADXoAwfo1+CIjyFRuEho60aSNYlOPxEAAAh+QQFCgAPACwAAAIADQANAAAENPA9s4y8+IUVcqaWJ4qEQozSoAzoIyhCK2NFU2SJk0hNnyEOhKR2AzAAj4Pj4GE4W0bkJQIAOw=="};
+var PT_CV_PUBLIC = {"_prefix":"pt-cv-","page_to_show":"5","_nonce":"72984a3a4e","is_admin":"","is_mobile":"","ajaxurl":".\/wp-admin\/admin-ajax.php","lang":"","loading_image_src":"data:image\/gif;base64,R0lGODlhDwAPALMPAMrKygwMDJOTkz09PZWVla+vr3p6euTk5M7OzuXl5TMzMwAAAJmZmWZmZszMzP\/\/\/yH\/C05FVFNDQVBFMi4wAwEAAAAh+QQFCgAPACwAAAAADwAPAAAEQvDJaZaZOIcV8iQK8VRX4iTYoAwZ4iCYoAjZ4RxejhVNoT+mRGP4cyF4Pp0N98sBGIBMEMOotl6YZ3S61Bmbkm4mAgAh+QQFCgAPACwAAAAADQANAAAENPDJSRSZeA418itN8QiK8BiLITVsFiyBBIoYqnoewAD4xPw9iY4XLGYSjkQR4UAUD45DLwIAIfkEBQoADwAsAAAAAA8ACQAABC\/wyVlamTi3nSdgwFNdhEJgTJoNyoB9ISYoQmdjiZPcj7EYCAeCF1gEDo4Dz2eIAAAh+QQFCgAPACwCAAAADQANAAAEM\/DJBxiYeLKdX3IJZT1FU0iIg2RNKx3OkZVnZ98ToRD4MyiDnkAh6BkNC0MvsAj0kMpHBAAh+QQFCgAPACwGAAAACQAPAAAEMDC59KpFDll73HkAA2wVY5KgiK5b0RRoI6MuzG6EQqCDMlSGheEhUAgqgUUAFRySIgAh+QQFCgAPACwCAAIADQANAAAEM\/DJKZNLND\/kkKaHc3xk+QAMYDKsiaqmZCxGVjSFFCxB1vwy2oOgIDxuucxAMTAJFAJNBAAh+QQFCgAPACwAAAYADwAJAAAEMNAs86q1yaWwwv2Ig0jUZx3OYa4XoRAfwADXoAwfo1+CIjyFRuEho60aSNYlOPxEAAAh+QQFCgAPACwAAAIADQANAAAENPA9s4y8+IUVcqaWJ4qEQozSoAzoIyhCK2NFU2SJk0hNnyEOhKR2AzAAj4Pj4GE4W0bkJQIAOw=="};
 var PT_CV_PAGINATION = {"first":"«","prev":"‹","next":"›","last":"»","goto_first":"Go to first page","goto_prev":"Go to previous page","goto_next":"Go to next page","goto_last":"Go to last page","current_page":"Current page is","goto_page":"Go to page"};
 </script>
 <script src="./../wp-content/plugins/content-views-query-and-display-post-page/public/assets/js/cv.js?ver=2.4.0.2" id="pt-cv-content-views-script-js"></script>
+<script src="./../wp-content/plugins/embedpress/assets/js/front.js?ver=3.1.1" id="embedpress-front-js"></script>
 <script src="./../wp-includes/js/wp-embed.min.js?ver=5.8" id="wp-embed-js"></script>
 <script src="./../wp-content/plugins/tablepress/js/jquery.datatables.min.js?ver=1.14" id="tablepress-datatables-js"></script>
+<script src="./../wp-content/plugins/tablepress-responsive-tables/js/dataTables.responsive.min.js?ver=1.8" id="tablepress-responsive-tables-js"></script>
+<script src="./../wp-content/plugins/popup-anything-on-click/assets/js/custombox.legacy.min.js?ver=1.9.2" id="jquery-custombox-legacy-js"></script>
+<script src="./../wp-content/plugins/popup-anything-on-click/assets/js/custombox.min.js?ver=1.9.2" id="jquery-custombox-js"></script>
+<script src="./../wp-content/plugins/popup-anything-on-click/assets/js/popupaoc-public.js?ver=1.9.2" id="wpos-public-script-js-js"></script>
 <script src="./../wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.3.3" id="elementor-pro-webpack-runtime-js"></script>
 <script src="./../wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.3.1" id="elementor-webpack-runtime-js"></script>
 <script src="./../wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.3.1" id="elementor-frontend-modules-js"></script>
 <script id="elementor-pro-frontend-js-before">
-var ElementorProFrontendConfig = {"ajaxurl":".\/wp-admin\/admin-ajax.php","nonce":"bc1d7eff74","urls":{"assets":".\/wp-content\/plugins\/elementor-pro\/assets\/"},"i18n":{"toc_no_headings_found":"No headings were found on this page."},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"google":{"title":"Google+","has_counter":true},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":".\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+var ElementorProFrontendConfig = {"ajaxurl":".\/wp-admin\/admin-ajax.php","nonce":"f4acd37db9","urls":{"assets":".\/wp-content\/plugins\/elementor-pro\/assets\/"},"i18n":{"toc_no_headings_found":"No headings were found on this page."},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"google":{"title":"Google+","has_counter":true},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":".\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
 </script>
 <script src="./../wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.3.3" id="elementor-pro-frontend-js"></script>
 <script src="./../wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2" id="elementor-waypoints-js"></script>
@@ -728,7 +724,71 @@ var wpformsElementorVars = {"captcha_provider":"recaptcha","recaptcha_type":"v2"
 			</script>
 			<script>
 jQuery(function($){
-$('#tablepress-4').dataTable({"order":[],"orderClasses":false,"stripeClasses":["even","odd"],"pagingType":"simple"});
+var DT_tablepress_4 = $('#tablepress-4').DataTable({"order":[],"orderClasses":false,"stripeClasses":["even","odd"],"pagingType":"simple","columnDefs": [ { "searchable": false, "orderable": false, "targets": 0 } ],"responsive":true});;
+DT_tablepress_4.on( 'order.dt search.dt', function() {
+	DT_tablepress_4.column( 0, { search: 'applied', order: 'applied' } ).nodes().each( function( cell, i ) {
+		cell.innerHTML = i+1;
+	} );
+} ).draw();
 });
-</script>	</body>
+</script>				<div id="paoc-modal-1" class="paoc-popup-modal">
+					<a href="javascript:void(0);" class="paoc-popup-close paoc-close-popup"></a>
+					<div class="paoc-popup-modal-cnt">
+						<p><strong>ISR Project</strong></p>
+<p>At present, our society increasing aging population, labor service costs, labor supply and demand and there is a huge demand for labor; users increasingly emphasize fresh, thoughtful consumer experience, businesses pursuit of low cost and high efficiency of the purpose of profit, which service robot development and application to create a broad market prospect.The development of service robots contending products to Alibaba, represented by Ma Fresh green box service robots is to enter the 2018 First China International Import Expo exhibition site, it is to see the style. At present, the development of service robots following defects:<br>
+· Single function: only for a specific environment to achieve specific functions, has a tendency toys;<br>
+· Not flexible enough: You can not use the flexible robotic arm, unable to move, the need for orbit;<br>
+· Unable Collaboration: robot exists only as an individual, no scheduling between multiple robots<br>
+To solve these problems, the project team proposed a "service robot integration and collaborative platform" solution, including:<br>
+· According to insufficient research and development of service robots designed "highly integrated" robot, which set multiple functions in one of the robot;<br>
+· Even if the robot should be more integrated functionality on demand, a combination of functional modules designed "low coupling", to facilitate the combination of different functions and modules, and dismantling;<br>
+· To overcome the lack of independent operation of a conventional service robots, designed the "synergy" type of robot system scheduling, task more robots will be "total station" unified scheduling and distribution;<br>
+The project is to overcome the traditional single function service robots, less flexible, more individual robot can not be coordinated scheduling problem and design a highly integrated, low coupling, can be scheduled cooperative multi-robot scenes and service platform, can be put into restaurants, hotels, bar, bath center, snack shop and a hospital nurse stations, wards and nursing homes and other service establishments. The product has been put into use Jiangxi University canteen, national invention patent applications related to the results of nine published papers related to eight.</p>
+					</div>
+				</div>
+						<div id="paoc-modal-2" class="paoc-popup-modal">
+					<a href="javascript:void(0);" class="paoc-popup-close paoc-close-popup"></a>
+					<div class="paoc-popup-modal-cnt">
+						<p><strong>DSS Project</strong></p>
+<p>CRM is one of the key point of any product these days. Many products fail because of lack of CRM. The key of CRM is the relationship between customer and manufacturer. It means that one customer needs good service and the other manufacturer needs more celling products. In the other word, CRM is a business strategy to select valuable customers and manage the relationships with them. Its goal is to reduce sales cycle and cost, increase revenue and find new markets and channels to expand business by improving customer value, satisfaction, profitability and loyalty. On the other hand, study on the products shows, in terms of performance and working state, product performance sometimes fails due to some working conditions which are not considered and observed by the designer or may not be considered due to the reason of material site. Also testing the product in all environment is not possible and over than time it may be very expensive for some products. Based on knowing the importance of CRM concept; DSS is a system which try to connect the rings between manufacture from one side and customer from other side in an intelligent way. Many manufacturers to make their working cycle simpler tried to hand over their support system to customer service section and it may have happened the data from customer service which may include the product Diffraction, Fault and any error type will not reach the manufacture for study and rectification.</p>
+<p>CRM是现在任何产品的关键要素之一，许多产品的失败都是因为缺少客户关系管理。客户关系管理的关键在于客户与制造商之间的关系。这意味着客户需要好的服务，制造商需要更多的产品。换句话说，客户关系管理是一种商业策略，用来选择有价值的客户并管理和他们之间的关系。其目标是通过提高客户价值、满意度、盈利水平和忠诚度来降低销售周期和成本，增加收入，寻找新的市场和渠道来拓展业务。另一方面，对产品的研究表明，在性能和工作状态方面，产品性能有时会出现问题，这是由于设计师所未提前考虑到的设备工作环境，也可能是由于材料场地的原因。并且，在所有环境中测试产品是不现实的，而且一段时间过后某些产品可能会非常昂贵。基于对CRM概念重要性的认识，DSS是一个智能系统，作为环连接一方的制造商和另一方的客户。很多厂家为了简化工作周期，将他们的支持系统交给客服部门，而可能会发生的情况是，客服方的数据包括产品的衍射、故障和任何类型的错误都无法反馈给厂家让他们进行研究和整改</p>
+					</div>
+				</div>
+						<div id="paoc-modal-3" class="paoc-popup-modal">
+					<a href="javascript:void(0);" class="paoc-popup-close paoc-close-popup"></a>
+					<div class="paoc-popup-modal-cnt">
+						<p><strong>Raspberry Pi SCADA Project</strong></p>
+<p>SCADA (Supervisory Control and Data Acquisition) and DCS (Distributed Control System) are both famous terms in automation and they both have critical rules. There is rarely an industry in the world which are not auditing their outcome based on one of this terms. But IOT developed in recent years, mixing the functionality of these two terms has been going on too with various security challenges involved. Even some previous issues like the price of software and easy extendibility of them make the way for small industries to have their benefits. In this research paper along with the designing and comparison, two small SCADA systems for agricultural applications tries to reduce the size as well as address a zonal method to investigate the security problems. Till these days’ researchers have shown lots of development to reduce the scada cost in different manner but, having the compact, powerful and small size host for SCADA system has not been reported before. One of the novel aspect in this design is hiring the Raspberry Pi as the smallest computer instead of PC or laptop which along with reducing the system cost can also reduce the whole design system. Beside, Web based SCADA system has been successfully designed here and used. This paper discusses the context of local as well as remote monitoring of an agricultural plant environment with the help of a Raspberry Pi network through which a SCADA System was established. This paper aims to prove that a far more efficient and cost-effective along a secure SCADA System for monitoring is possible with the lowest of efforts. So, having zonal idea will help system to achieve the aim of secure sensor<br>
+monitoring without any kind of outside interference. The result shows the successful design and implementation of zonal idea as well as the perfect usage of Raspberry Pi as a small andreliable host.</p>
+					</div>
+				</div>
+						<div id="paoc-modal-4" class="paoc-popup-modal">
+					<a href="javascript:void(0);" class="paoc-popup-close paoc-close-popup"></a>
+					<div class="paoc-popup-modal-cnt">
+						<p><strong>VAR Brief</strong></p>
+<p>Today’s game quality is more affected by referee decisions. The history shows that the error in a referee’s decision may change the whole result of a game. It seems to rely on just the referee’s decision and always combines with the errors. This fact is even bolded in important games like the World Cup or Olympics which may cause the rank of the team, players, etc. Recently, to solve this problem, the new concept of VAR (video assistant referee) has been introduced and had also been hired during the football World Cup match 2018. Even some methods like video check-ins in volleyball games or bypass signal in Swordsmanship (sword fighting) long back was used. But still, so many demand games are missed. Statistically, almost approximately 8 hundred million people are playing table tennis in the world but due to the ball speed in this game which sometimes increases up to 69.9 miles per hour (112.4931 km/h) which brings the limitation to hire and use the VAR systems. In this research paper, a novel VAR system (TTV system) based on Kinect and Raspberry pi has been presented. The main aspect of this design is to have a portable system which can be used for any type of LCDsystem and help the referees to count the ball better during the game to have a more qualified game. In the proposed TTV algorithm, the two methods of contour and depth are merged to have better ball detection. The experiment results in showing the proposed algorithm and systems success in real game and its ability to implement in the real game which has not been reported before.</p>
+					</div>
+				</div>
+						<div id="paoc-modal-5" class="paoc-popup-modal">
+					<a href="javascript:void(0);" class="paoc-popup-close paoc-close-popup"></a>
+					<div class="paoc-popup-modal-cnt">
+						<p><strong>Helmet Project Brief</strong></p>
+<p>In recent years, the rapid development of artificial intelligence, many disciplines and related industries are trying to use artificial intelligence to solve problems. At present, many landing applications based on artificial intelligence have changed our work and life. In particular, the technology related to machine vision has been widely used in industrial production, medicine, security check, criminal investigation and other fields. In the industrial production environment, there are many accidents and unsafe behaviors of workers, such as entering the workplace beyond the authority, operating in violation of regulations, and failing to properly wear labor protection products. These accidents not only threaten the life and health of workers, but also cause losses to enterprises. The helmet is a kind of widely used labor protection supplies, which is applied in construction sites, production workshops, aerial work and other scenes. Wearing the safety helmet in these scenes can effectively ensure the safety of workers and prevent accidents. Therefore, this project USES deep learning technology to develop a helmet wearing detection system, which can detect whether the staff are wearing helmets in real time, so as to prevent safety accidents caused by not wearing helmets.</p>
+					</div>
+				</div>
+						<div id="paoc-modal-6" class="paoc-popup-modal">
+					<a href="javascript:void(0);" class="paoc-popup-close paoc-close-popup"></a>
+					<div class="paoc-popup-modal-cnt">
+						<p><strong>SJ Brief</strong></p>
+<p>In our daily life it may happened that we use restaurant or canteen to eat food. But for the restaurant manager its very critical to have and prepare the sufficient material for shop. Even most of the restaurant and canteen manager are have the problem about quantity of material that they need daily and avoid wastage. Beside some restaurant have some food in their daily menu which may not order but they should have made it daily. On the other side to improve the quality of food knowing the customer feedback is more important and the manager can plan to make a specific food more to make them happy and absorb more customer. All this idea intended to have a tool called “SJ(shitong jinagli)) to help customer and food court managers.</p>
+					</div>
+				</div>
+						<div id="paoc-modal-7" class="paoc-popup-modal">
+					<a href="javascript:void(0);" class="paoc-popup-close paoc-close-popup"></a>
+					<div class="paoc-popup-modal-cnt">
+						<p><strong>OCR Project 2021</strong></p>
+<p>本项目致力于使用神经网络模型，创建一个债卷图片数据的文本检测与识别系统，用来提取财务报表等债卷图片文字信息。 当下最流行的文本检测算法是，DB算法。DB算法能够识别扭曲文本，这是传统CTPN和EAST等算法无法相比的。而文本识别算法，当下最流行的就是CRNN网络，使用双向循环网络，能够很好的结合文本前后的相关性来提高识别精度。</p>
+					</div>
+				</div>
+			</body>
 </html>
