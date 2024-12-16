@@ -11,6 +11,8 @@ appearance:
   font: native
   font_size: L
 
+i_am_a_sponsor: true
+
 # SEO
 
 marketing:
@@ -34,7 +36,6 @@ marketing:
 header:
   navbar:
     enable: true
-    blox: "my-navbar"
     align: r
     show_logo: true
     show_language: false

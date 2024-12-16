@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: Robotics and Automation Research Lab # Website name
-baseURL: 'https://rarlroboticresearchlab.github.io//' # Website URL
+baseURL: 'https://rarlroboticresearchlab.github.io/' # Website URL
 
 ############################
 ## LANGUAGE
