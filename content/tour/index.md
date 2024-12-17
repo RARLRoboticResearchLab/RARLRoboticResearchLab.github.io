@@ -18,22 +18,22 @@ sections:
               brightness: 0.7
           position: right
           color: '#666'
-      - title: Lunch & Learn ☕️
-        content: 'Share your knowledge with the group and explore exciting new topics together!'
+      - title: Food Delivery Robot ☕️
+        content: 'Meet Foodiebot the autonomous robot for delivering food to customers'
         align: left
         background:
           image:
-            filename: contact.jpg
+            filename: FDR1.jpg
             filters:
               brightness: 0.7
           position: center
           color: '#555'
-      - title: World-Class Semiconductor Lab
-        content: 'Just opened last month!'
+      - title: Deep learning in Agriculture (Corn Detection)
+        content: 'Detecting crops using deep learning methods like object detection'
         align: right
         background:
           image:
-            filename: welcome.jpg
+            filename: corn1.jpg
             filters:
               brightness: 0.5
           position: center

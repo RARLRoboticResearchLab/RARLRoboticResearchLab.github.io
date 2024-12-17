@@ -11,12 +11,17 @@ sections:
       # Choose which groups/teams of users to display.
       #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
       user_groups:
-          - Principal Investigators
-          - Researchers
-          - Grad Students
-          - Administration
-          - Visitors
-          - Alumni
+          - Lab Director
+          - Senior Research Scientist
+          - Project Manager
+          - Robotics Engineer
+          - Software Engineer
+          - Data Scientist
+          - Hardware Technician
+          - Simulation Specialist
+          - Junior Research Assistant
+          - Intern
+          - Safety Officer
       sort_by: Params.last_name
       sort_ascending: true
     design:
