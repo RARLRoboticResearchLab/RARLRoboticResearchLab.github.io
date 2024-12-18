@@ -19,6 +19,15 @@ function canChangeTheme() {
   return Boolean(window.wc.darkLightEnabled);
 }
 
+function updateLogoBasedOnTheme(isDarkTheme) {
+  const logo = document.getElementById('theme-logo');
+  console.debug(`Current Logo: ${logo.src}`)
+  if (logo) {
+    logo.src = isDarkTheme ? '/media/logo.svg' : '/res/logos.png';
+    console.debug(`Logo updated to: ${logo.src}`);
+  }
+}
+
 // initThemeVariation is first called directly after <body> to prevent
 // flashing between the default theme mode and the user's choice.
 function initThemeVariation() {
@@ -224,6 +233,7 @@ function renderThemeVariation(isDarkTheme, themeMode = 2, init = false) {
       }
     }
   }
+  updateLogoBasedOnTheme(isDarkTheme);
 }
 
 /**
