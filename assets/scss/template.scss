@@ -7,3 +7,22 @@
 .cta-group {
   justify-content: center;
 }
+
+.gallery-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  color: #fff;
+  grid-column-start: auto;
+  grid-row-start: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background: #000 center;
+  box-shadow: -2px 2px 10px 0 rgba(#444, 0.4);
+  transition: transform 0.3s ease-in-out;
+  cursor: zoom-in;
+  counter-increment: item-counter;
+  overflow: hidden;
+}

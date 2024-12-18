@@ -19,9 +19,12 @@ main:
   - name: Publications
     url: publication
     weight: 50
+  - name: Lab Posters
+    url: labppt
+    weight: 66
   - name: Gallery
     url: gallery
-    weight: 60
+    weight: 70
   - name: Contact
     url: contact
-    weight: 70
+    weight: 80
