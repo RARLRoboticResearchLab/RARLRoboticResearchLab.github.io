@@ -44,7 +44,7 @@
   {{if in .Name "-f." }}
     {{ $image_size = "gallery-item--full" }}
   {{else if in .Name "-s." }}
-    {{ $image_size = "" }}
+    {{ $image_size = "gallery-item--small" }}
   {{else if in .Name "-l." }}
     {{ $image_size = "gallery-item--large" }}
   {{end}}
