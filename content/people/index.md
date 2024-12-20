@@ -14,9 +14,10 @@ sections:
           - Lab Director
           - Senior Research Scientist
           - Collaborator
-          - Past Students
-          - Current Students
           - Junior Research Assistant
+          - Research Assistant (Remote)
+          - Current Students
+          - Alumni
           - Intern
       sort_by: Params.last_name
       sort_ascending: true

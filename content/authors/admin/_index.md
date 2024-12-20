@@ -35,7 +35,7 @@ superuser: true
 user_groups:
   - Lab Director
 last_name: Moshayedi
-highlight_name: false
+highlight_name: true
 first_name: Ata Jahangir
 email: ajm@jxust.edu.cn
 ---
