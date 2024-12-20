@@ -1,6 +1,6 @@
 ---
 title: Dr. Ata Jahangir Moshayedi
-role: Professor of Embedded Systems
+role: Professor of Robotics
 bio: My research interests include Robotics and Automation, Sensor modelling
   ,Bio-inspired robots, Mobile Robot Olfaction, Plume Tracking, Embedded System,
   Machine vision-based Systems, Virtual reality and Artificial Intelligence.
@@ -37,6 +37,6 @@ user_groups:
 last_name: Moshayedi
 highlight_name: false
 first_name: Ata Jahangir
-email: "ajm@jxust.edu.cn"
+email: ajm@jxust.edu.cn
 ---
 Dr Ata Jahangir Moshayedi is an associate professor at JXUST. He has done his PhD from Electronic Science from Savitribai Phule Pune University, India( 2015). He has been a member of various Societies like IEEE, Instrument Society of India as a Life Member, Lifetime Member of Speed Society of India, and editorial team of various conference and journals. [](https://scholar.google.com/citations?user=nLz_vcoAAAAJ&hl=en)

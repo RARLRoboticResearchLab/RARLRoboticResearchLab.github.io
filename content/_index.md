@@ -15,7 +15,7 @@ sections:
       text: |
         <br>
         
-        The Robotics and Automation Research Lab (RARL) has been a center of excellence for Robotics since its founding in 2018.
+        The Robotics and Automation Research Laboratory (RARL) was established to innovate, design, and develop robots, with a particular focus on service robots and automation projects.
   
   - block: collection
     content:

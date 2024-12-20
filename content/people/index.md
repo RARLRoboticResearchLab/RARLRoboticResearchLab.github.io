@@ -13,15 +13,11 @@ sections:
       user_groups:
           - Lab Director
           - Senior Research Scientist
-          - Project Manager
-          - Robotics Engineer
-          - Software Engineer
-          - Data Scientist
-          - Hardware Technician
-          - Simulation Specialist
+          - Collaborator
+          - Past Students
+          - Current Students
           - Junior Research Assistant
           - Intern
-          - Safety Officer
       sort_by: Params.last_name
       sort_ascending: true
     design:
