@@ -22,6 +22,12 @@ main:
   - name: Lab Posters
     url: labppt
     weight: 66
+  - name: Collaborations
+    url: collabs
+    weight: 68
+  - name: Awards
+    url: awards
+    weight: 69
   - name: Gallery
     url: gallery
     weight: 70

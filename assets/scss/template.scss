@@ -25,3 +25,39 @@
   counter-increment: item-counter;
   overflow: hidden;
 }
+
+
+/* Container for the gallery */
+.award-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+/* Individual image items */
+.award-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Make images responsive */
+.award-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px; /* Optional, adds rounded corners to the images */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .award-gallery {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on medium screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .award-gallery {
+    grid-template-columns: 1fr; /* 1 column on small screens */
+  }
+}
