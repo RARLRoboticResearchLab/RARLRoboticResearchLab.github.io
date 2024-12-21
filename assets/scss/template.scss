@@ -26,6 +26,47 @@
   overflow: hidden;
 }
 
+.hero-lead {
+  max-width: 768px;
+  font-size: 1.15rem;
+}
+.hero-lead2 {
+  max-width: 768px;
+  font-size: 0.9rem;
+}
+
+.wg-hero.dark .hero-title,
+.wg-hero.dark .hero-lead,
+.wg-hero.dark .hero-lead2,
+.wg-hero.dark .hero-cta-alt,
+.wg-hero.dark .hero-note > * {
+  color: #fff;
+
+  /* text-shadow: 1px 1px 4px rgba(0,0,0,0.5); */
+
+  /* Uncomment to standout on complicated backgrounds. */
+}
+
+.dark .list-group-item {
+
+  background-color: #2e303c;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.dark .card {
+  background-color: #282a36;
+}
+
+
+
+.hero-title {
+  font-size: 2.25rem;
+  margin-top: 0;
+  line-height: 1;
+}
+
+
+
 
 /* Container for the gallery */
 .award-gallery {

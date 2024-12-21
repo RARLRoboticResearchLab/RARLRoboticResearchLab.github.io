@@ -14,9 +14,10 @@ sections:
         filename: welcome.jpg
       text: |
         <br>
+        The Robotics and Automation Research Laboratory (RARL) was established to innovate, design, and develop robots, with a particular focus on service robots and automation projects. Beyond research, RARL aims to provide consultation and support to industries seeking advanced automation solutions.
+      text2: |
+        <br>
         
-        The Robotics and Automation Research Laboratory (RARL) was established to innovate, design, and develop robots, with a particular focus on service robots and automation projects.
-  
   - block: collection
     content:
       title: Latest News
