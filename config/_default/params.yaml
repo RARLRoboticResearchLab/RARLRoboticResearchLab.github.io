@@ -18,14 +18,14 @@ i_am_a_sponsor: true
 marketing:
   seo:
     site_type: Organization
-    local_business_type: ''
-    org_name: ''
+    local_business_type: 'Research Lab'
+    org_name: 'Robotics and Automation Research Lab (RARL)'
     description: 'A highly active research group from Jiangxi China focusing on robotics and automation research'
     twitter: 'RARLRoboticsLab'
   analytics:
     google_analytics: ''
     baidu_tongji: ''
-    google_tag_manager: ''
+    google_tag_manager: 'G-85EBTK7X5W'
     microsoft_clarity: ''
   verification:
     google: ''
