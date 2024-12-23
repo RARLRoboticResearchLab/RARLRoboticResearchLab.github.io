@@ -9,12 +9,12 @@ interests:
   - Robotics and Automation
   - Data Analysis and Signal Processing
 social:
-  - icon: linkedin
-    icon_pack: fab
-    link: "https://www.linkedin.com/in/zou-zhenpeng"
-  - icon: envelope
-    icon_pack: fas
-    link: "mailto:zou.zhenpeng@example.com"
+  # - icon: linkedin
+  #   icon_pack: fab
+  #   link: "https://www.linkedin.com/in/zou-zhenpeng"
+  # - icon: envelope
+  #   icon_pack: fas
+  #   link: "mailto:zou.zhenpeng@example.com"
 organizations:
   - name: Jiangxi University of Science and Technology
     url: "https://www.jxust.edu.cn"

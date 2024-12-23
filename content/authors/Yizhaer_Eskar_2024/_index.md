@@ -9,20 +9,17 @@ interests:
   - Embedded Systems
   - Machine Learning Applications
 social:
-  - icon: envelope
-    icon_pack: fas
-    link: "mailto:yizhaer.eskar@example.com"
-  - icon: linkedin
-    icon_pack: fab
-    link: "https://www.linkedin.com/in/yizhaer-eskar"
+  # - icon: envelope
+  #   icon_pack: fas
+  #   link: "mailto:yizhaer.eskar@example.com"
+  # - icon: linkedin
+  #   icon_pack: fab
+  #   link: "https://www.linkedin.com/in/yizhaer-eskar"
 organizations:
   - name: Jiangxi University of Science and Technology
     url: "https://www.jxust.edu.cn"
 education:
   courses:
-    - course: M.S. in Engineering
-      institution: Jiangxi University of Science and Technology
-      year: Ongoing
     - course: B.S. in Engineering
       institution: Jiangxi University of Science and Technology
       year: 2023
@@ -48,4 +45,4 @@ languages:
   - English (Intermediate)
 ---
 
-Yizhaer Eskar graduated with a B.S. degree in Engineering from Jiangxi University of Science and Technology in 2023 and is currently pursuing his M.S. degree at the same institution. His research interests lie in artificial intelligence, robotics, and embedded systems, focusing on creating innovative solutions for automation and intelligent systems.
+Yizhaer Eskar graduated with a B.S. degree in Engineering from Jiangxi University of Science and Technology in 2023. His research interests lie in artificial intelligence, robotics, and embedded systems, focusing on creating innovative solutions for automation and intelligent systems.

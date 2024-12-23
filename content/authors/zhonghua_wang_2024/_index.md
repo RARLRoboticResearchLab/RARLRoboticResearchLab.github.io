@@ -9,12 +9,12 @@ interests:
   - Deep Learning Techniques
   - Computer Vision Applications
 social:
-  - icon: envelope
-    icon_pack: fas
-    link: "mailto:zhonghua.wang@jxust.edu.cn"
-  - icon: linkedin
-    icon_pack: fab
-    link: "https://www.linkedin.com/in/zhonghua-wang"
+  # - icon: envelope
+  #   icon_pack: fas
+  #   link: "mailto:zhonghua.wang@jxust.edu.cn"
+  # - icon: linkedin
+  #   icon_pack: fab
+  #   link: "https://www.linkedin.com/in/zhonghua-wang"
 organizations:
   - name: Jiangxi University of Science and Technology
     url: "https://www.jxust.edu.cn"

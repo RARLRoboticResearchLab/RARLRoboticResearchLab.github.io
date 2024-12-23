@@ -10,12 +10,12 @@ interests:
   - Mobile App Development
   - Research and Development in Computer Science
 social:
-  - icon: envelope
-    icon_pack: fas
-    link: "mailto:kmshiblyreza@gmail.com"
-  - icon: linkedin
-    icon_pack: fab
-    link: "https://www.linkedin.com/in/km-shibly"
+  # - icon: envelope
+  #   icon_pack: fas
+  #   link: "mailto:kmshiblyreza@gmail.com"
+  # - icon: linkedin
+  #   icon_pack: fab
+  #   link: "https://www.linkedin.com/in/km-shibly"
 organizations:
   - name: Jiangxi University of Science and Technology
     url: ""
@@ -38,7 +38,7 @@ user_groups:
 last_name: Reza
 highlight_name: false
 first_name: KM Shibly
-email: "kmshiblyreza@gmail.com"
+# email: "kmshiblyreza@gmail.com"
 skills:
   - Programming Languages: Python, Java, C++
   - Frameworks and Tools: Unity, ROS

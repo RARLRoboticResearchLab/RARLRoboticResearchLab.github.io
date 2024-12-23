@@ -10,9 +10,9 @@ interests:
   - Digital Image Processing
   - Emerging Technologies
 social:
-  - icon: envelope
-    icon_pack: fas
-    link: "mailto:khayasambo@gmail.com"
+  # - icon: envelope
+  #   icon_pack: fas
+  #   link: "mailto:khayasambo@gmail.com"
   - icon: github
     icon_pack: fab
     link: "https://github.com/KhayaSambo"
@@ -20,13 +20,9 @@ social:
     icon_pack: fab
     link: "https://www.linkedin.com/in/khayasambo/"
 organizations:
+  - name: University of Cape Town
+    url: ""
   - name: Jiangxi University of Science and Technology
-    url: ""
-  - name: Mountain Aloe Den Lodge
-    url: ""
-  - name: University of Free State
-    url: ""
-  - name: Power Of Girls Trading Enterprise
     url: ""
 education:
   courses:

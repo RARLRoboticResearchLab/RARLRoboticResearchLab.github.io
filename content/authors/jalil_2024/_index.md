@@ -9,9 +9,9 @@ interests:
   - Data Analysis
   - Software Development
 social:
-  - icon: envelope
-    icon_pack: fas
-    link: "mailto:jawadijalil1999@gmail.com"
+  # - icon: envelope
+  #   icon_pack: fas
+  #   link: "mailto:jawadijalil1999@gmail.com"
 education:
   courses:
     - course: Bachelor's Degree in Engineering

@@ -10,9 +10,9 @@ interests:
   - Mobile App Development
   - Search Engine Optimization (SEO)
 social:
-  - icon: envelope
-    icon_pack: fas
-    link: "mailto:mrsohail21@gmail.com"
+  # - icon: envelope
+  #   icon_pack: fas
+  #   link: "mailto:mrsohail21@gmail.com"
   - icon: orcid
     icon_pack: ai
     link: "https://orcid.org/0000-0002-1232-8690"
@@ -43,7 +43,7 @@ user_groups:
 last_name: Khan
 highlight_name: false
 first_name: Amir Sohail
-email: "mrsohail21@gmail.com"
+# email: "mrsohail21@gmail.com"
 publications:
   - title: "Indoor UAV Object Detection Algorithms On Three Processors"
     venue: "2023 3rd International Conference on Consumer Electronics and Computer Engineering (ICCECE)"

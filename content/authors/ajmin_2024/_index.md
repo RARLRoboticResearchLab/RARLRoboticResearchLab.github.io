@@ -9,12 +9,12 @@ interests:
   - Automation and Robotics
   - Data Analytics
 social:
-  - icon: envelope
-    icon_pack: fas
-    link: "mailto:info@ajmin.tech"
-  - icon: globe
-    icon_pack: fas
-    link: "https://ajmin.tech"
+  # - icon: envelope
+  #   icon_pack: fas
+  #   link: "mailto:info@ajmin.tech"
+  # - icon: globe
+  #   icon_pack: fas
+  #   link: "https://ajmin.tech"
 education:
   courses:
     - course: Bachelor's Degree in Engineering
@@ -26,7 +26,7 @@ user_groups:
 last_name: Ajmin
 highlight_name: false
 first_name: Pradhan Md.
-email: "info@ajmin.tech"
+# email: "info@ajmin.tech"
 personal_details:
   place_of_birth: Dhaka, Bangladesh
   date_of_birth: 10/05/2000
@@ -41,4 +41,4 @@ languages:
   - English (Fluent)
 ---
 
-Pradhan Md. Ajmin, born on October 5, 2000, in Dhaka, Bangladesh, is an innovative technologist with a passion for engineering and problem-solving. With expertise spanning software development, data analytics, and automation, he is committed to leveraging technology to create impactful solutions. Currently married and residing in Bangladesh, Pradhan is reachable via his professional email, info@ajmin.tech, or through his personal website, ajmin.tech.
+Pradhan Md. Ajmin, is a BS student from Jiangxi University of Science & Technology

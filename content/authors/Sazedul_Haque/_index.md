@@ -10,12 +10,12 @@ interests:
   - Machine Learning
   - Programming in Python, Java, C
 social:
-  - icon: envelope
-    icon_pack: fas
-    link: "mailto:sazedulhaque1998@gmail.com"
-  - icon: linkedin
-    icon_pack: fab
-    link: "https://www.linkedin.com/in/sazedul-haque"
+  # - icon: envelope
+  #   icon_pack: fas
+  #   link: "mailto:sazedulhaque1998@gmail.com"
+  # - icon: linkedin
+  #   icon_pack: fab
+  #   link: "https://www.linkedin.com/in/sazedul-haque"
 organizations:
   - name: Jiangxi University of Science and Technology
     url: ""

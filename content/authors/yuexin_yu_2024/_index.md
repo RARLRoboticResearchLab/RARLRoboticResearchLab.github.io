@@ -9,12 +9,12 @@ interests:
   - System Optimization
   - Firmware Development
 social:
-  - icon: envelope
-    icon_pack: fas
-    link: "mailto:yuexinyu@hdu.edu.cn"
-  - icon: linkedin
-    icon_pack: fab
-    link: "https://www.linkedin.com/in/yuexin-yu"
+  # - icon: envelope
+  #   icon_pack: fas
+  #   link: "mailto:yuexinyu@hdu.edu.cn"
+  # - icon: linkedin
+  #   icon_pack: fab
+  #   link: "https://www.linkedin.com/in/yuexin-yu"
 organizations:
   - name: Hangzhou Dianzi University
     url: "https://www.hdu.edu.cn"

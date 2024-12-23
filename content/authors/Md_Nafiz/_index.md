@@ -7,9 +7,9 @@ interests:
   - Cybersecurity
   - Web Development
 social:
-  - icon: envelope
-    icon_pack: fas
-    link: ""
+  # - icon: envelope
+  #   icon_pack: fas
+  #   link: ""
 organizations:
   - name: Jiangxi University of Science and Technology
     url: ""

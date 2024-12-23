@@ -9,12 +9,12 @@ interests:
   - Deep Reinforcement Learning
   - Artificial Intelligence in Robotics
 social:
-  - icon: envelope
-    icon_pack: fas
-    link: "mailto:xdangling@example.com"
-  - icon: linkedin
-    icon_pack: fab
-    link: "https://www.linkedin.com/in/xu-dangling"
+  # - icon: envelope
+  #   icon_pack: fas
+  #   link: "mailto:xdangling@example.com"
+  # - icon: linkedin
+  #   icon_pack: fab
+  #   link: "https://www.linkedin.com/in/xu-dangling"
 organizations:
   - name: University of Shanghai for Science and Technology
     url: "https://www.usst.edu.cn"

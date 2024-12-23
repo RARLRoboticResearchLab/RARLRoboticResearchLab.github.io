@@ -9,12 +9,12 @@ interests:
   - Computational Astrophysics
   - Machine Learning Applications in Physics
 social:
-  - icon: envelope
-    icon_pack: fas
-    link: "mailto:xie.yibin@jxust.edu.cn"
-  - icon: linkedin
-    icon_pack: fab
-    link: "https://www.linkedin.com/in/xie-yibin"
+  # - icon: envelope
+  #   icon_pack: fas
+  #   link: "mailto:xie.yibin@jxust.edu.cn"
+  # - icon: linkedin
+  #   icon_pack: fab
+  #   link: "https://www.linkedin.com/in/xie-yibin"
 organizations:
   - name: Jiangxi University of Science and Technology
     url: "https://www.jxust.edu.cn"

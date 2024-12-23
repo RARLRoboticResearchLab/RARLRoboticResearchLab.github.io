@@ -9,20 +9,17 @@ interests:
   - Embedded Systems Development
   - Deep Learning Applications
 social:
-  - icon: envelope
-    icon_pack: fas
-    link: "mailto:peng.haowei@example.com"
-  - icon: linkedin
-    icon_pack: fab
-    link: "https://www.linkedin.com/in/peng-haowei"
+  # - icon: envelope
+  #   icon_pack: fas
+  #   link: "mailto:peng.haowei@example.com"
+  # - icon: linkedin
+  #   icon_pack: fab
+  #   link: "https://www.linkedin.com/in/peng-haowei"
 organizations:
   - name: Jiangxi University of Science and Technology
     url: "https://www.jxust.edu.cn"
 education:
   courses:
-    - course: M.S. in Engineering
-      institution: Jiangxi University of Science and Technology
-      year: Ongoing
     - course: B.S. in Engineering
       institution: Jiangxi University of Science and Technology
       year: 2024
@@ -32,7 +29,7 @@ user_groups:
 last_name: Haowei
 highlight_name: false
 first_name: Peng
-email: "peng.haowei@example.com"
+# email: "peng.haowei@example.com"
 research_focus:
   - Robotics and Control Systems
   - Embedded Systems and IoT
@@ -47,4 +44,4 @@ languages:
   - English (Intermediate)
 ---
 
-Peng Haowei earned his B.S. degree in 2024 from Jiangxi University of Science and Technology and is currently pursuing an M.S. degree in the same institution. His research interests include robotics, artificial intelligence, and embedded systems. Peng is focused on contributing to the development of intelligent systems and innovative technologies in automation.
+Peng Haowei earned his B.S. degree in 2024 from Jiangxi University of Science and Technology. His research interests include robotics, artificial intelligence, and embedded systems. Peng is focused on contributing to the development of intelligent systems and innovative technologies in automation.
