@@ -1,5 +1,5 @@
 ---
-title: Mehran Emadi Andani
+title: Prof. Dr. Mehran Emadi Andani
 role: Assistant Professor & Researcher in Neurosciences
 bio: Mehran Emadi Andani is an experienced electronic and biomedical engineer specializing in computational neuroscience, machine learning, bio-inspired robotics, and biomedical instrumentation. With over 20 years of experience, Mehran has contributed to significant research in human motor behavior and control, alongside developing advanced biomedical technologies.
 interests:
