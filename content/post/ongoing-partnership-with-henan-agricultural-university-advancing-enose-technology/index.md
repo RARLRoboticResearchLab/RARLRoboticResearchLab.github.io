@@ -16,13 +16,3 @@ image:
 RARL Laboratory continues its partnership with Prof. Hu's team at Henan Agricultural University, focusing on cutting-edge Electronic Nose (Enose) technology. The collaboration aims to enhance ammonia detection capabilities, driving innovation in environmental monitoring and agricultural applications.
 
 
-
-![](Image_20241227131624.jpg)
-
-![](Image_20241227131648.jpg)
-
-![](Image_20241227131702.jpg)
-
-![](Image_20241227131708.jpg)
-
-![](Image_20241227131730.jpg)
