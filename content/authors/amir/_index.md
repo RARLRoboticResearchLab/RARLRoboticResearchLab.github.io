@@ -2,6 +2,7 @@
 title: Amir Sohail Khan
 role: Junior Researcher & Software Developer
 bio: Amir Sohail Khan is a dedicated researcher and software developer with expertise in image processing, robotics, automation, and deep learning. He has contributed to innovative projects and publications, earning recognition in national and international forums. His passion for technology drives his ongoing exploration of cutting-edge advancements in computer science.
+year: 2023
 interests:
   - Image Processing
   - Robotics and Automation
@@ -39,7 +40,6 @@ education:
 superuser: false
 user_groups:
   - Research Assistant (Remote)
-  - Alumni
 last_name: Khan
 highlight_name: false
 first_name: Amir Sohail

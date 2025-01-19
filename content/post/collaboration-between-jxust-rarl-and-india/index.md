@@ -1,6 +1,6 @@
 ---
 title: Collaboration Agreement Signed Between RARL Laboratory, China, and Yashavantrao Chavan Institute of Science, Satara, India
-date: 2024-12-20
+date: 2025-01-06
 summary: On January 6, 2025, a significant collaboration agreement was formalized between the RARL Laboratory at Jiangxi University of Science and Technology and the Department of Electronics at Yashavantrao Chavan Institute of Science, Satara, India. This agreement aims to enhance research and academic partnerships, promoting innovation, facilitating knowledge exchange, and fostering joint research initiatives between the two institutions.
 draft: false
 featured: false

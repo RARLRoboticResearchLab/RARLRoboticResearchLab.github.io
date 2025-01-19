@@ -2,7 +2,7 @@
 title: Pradhan Md. Ajmin
 role: Engineer & Technologist
 bio: Pradhan Md. Ajmin is a skilled engineer with a passion for technology and innovation. Born and raised in Dhaka, Bangladesh, he is dedicated to solving complex challenges and creating impactful solutions in the field of engineering and technology.
-year: 2024
+year: 2025
 interests:
   - Emerging Technologies
   - Software Development

@@ -2,6 +2,7 @@
 title: Dr. Liefa Liao
 role: Professor of Computer Science
 bio: My research interests include Robotics and Automation, AI, Computer Vision and Core CS Concepts.
+year: 2018
 interests:
   - Robotics and Automation
   - Virtual reality and Artificial Intelligence.

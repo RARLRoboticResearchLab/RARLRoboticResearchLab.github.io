@@ -33,8 +33,9 @@ education:
       institution: Islamic Azad University
       year: 2018
 superuser: false
+do_sort: true
 user_groups:
-  - Research Assistant (Remote)
+  - Current Students
 last_name: Savoji
 highlight_name: false
 first_name: Kimia

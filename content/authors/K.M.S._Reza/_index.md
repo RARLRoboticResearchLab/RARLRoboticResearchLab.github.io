@@ -2,6 +2,7 @@
 title: KM Shibly Reza
 role: Computer Science Graduate & Researcher
 bio: KM Shibly Reza is a dedicated and skilled computer science graduate with a strong foundation in VR, robotics, and automation. He has contributed to multiple research projects, particularly in VR and ROS-based robotics, and is eager to pursue a career in technology, leveraging his academic excellence and technical skills.
+year: 2022
 interests:
   - Virtual Reality (VR)
   - Robotics and Automation

@@ -2,6 +2,7 @@
 title: Sithembiso Khaya Sambo
 role: Computer Science Student & Web Developer
 bio: Sithembiso Khaya Sambo is a passionate Computer Science student at Jiangxi University of Science and Technology, with a keen interest in emerging technologies and user-centric software development. With hands-on experience in web development, mobile app development, and system maintenance, Sithembiso is committed to creating engaging and innovative solutions.
+year: 2022
 interests:
   - Software Development
   - Web Development

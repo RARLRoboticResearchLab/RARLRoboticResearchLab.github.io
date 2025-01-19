@@ -2,6 +2,7 @@
 title: Sazedul Haque
 role: Computer Science Student & Aspiring Developer
 bio: Sazedul Haque is a dedicated Computer Science student at Jiangxi University of Science and Technology, with a strong interest in software development, programming, and technology solutions. He has a proven track record of academic excellence and project experience in various programming languages and software tools.
+year: 2022
 interests:
   - Software Development
   - Blockchain and Cryptocurrencies

@@ -2,6 +2,7 @@
 title: Md Nafiz
 role: Alumni
 bio: An alumnus from Bangladesh with a passion for technology and innovation.
+year: 2022
 interests:
   - Data Analysis
   - Cybersecurity

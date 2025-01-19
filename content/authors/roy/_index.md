@@ -2,6 +2,7 @@
 title: Atanu Shuvam Roy
 role: Software Developer & Researcher
 bio: Atanu Shuvam Roy is a passionate and skilled researcher with a strong foundation in computer science and engineering. His expertise includes deep learning, IoT systems, and full-stack development. He has a proven track record of developing innovative solutions, contributing to impactful research, and excelling in both academics and professional endeavors.
+year: 2022
 interests:
   - Deep Learning and Computer Vision
   - IoT and Smart Infrastructure
@@ -44,7 +45,6 @@ education:
 superuser: false
 user_groups:
   - Research Assistant (Remote)
-  - Alumni
 last_name: Roy
 highlight_name: false
 first_name: Atanu Shuvam

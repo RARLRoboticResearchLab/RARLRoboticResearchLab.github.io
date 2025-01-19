@@ -2,7 +2,7 @@
 title: Mohammad Jalil Jawadi
 role: Aspiring Technologist & Engineer
 bio: Mohammad Jalil Jawadi is an aspiring technologist with a passion for innovation and problem-solving. Born in Ghazni Province, Afghanistan, he is focused on advancing his skills and knowledge in engineering and technology.
-year: 2024
+year: 2025
 interests:
   - Technology and Innovation
   - Engineering Design

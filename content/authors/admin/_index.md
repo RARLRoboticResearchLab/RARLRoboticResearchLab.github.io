@@ -4,6 +4,7 @@ role: Professor of Robotics
 bio: My research interests include Robotics and Automation, Sensor modelling
   ,Bio-inspired robots, Mobile Robot Olfaction, Plume Tracking, Embedded System,
   Machine vision-based Systems, Virtual reality and Artificial Intelligence.
+year: 2018
 interests:
   - Robotics and Automation
   - Sensor modelling

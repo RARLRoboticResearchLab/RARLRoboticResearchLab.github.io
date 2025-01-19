@@ -1,6 +1,6 @@
 ---
 title: RARL Lab Collaborates with SSHMC Lab
-date: 2024-12-20
+date: 2024-12-16
 summary: RARL Laboratory, Jiangxi University of Science and Technology,
   represented by Dr. Ata Jahangir MOSHAYEDI, entered into a collaboration with
   the Smart Structural Health Monitoring and Control Lab (SSHMC Lab), Dongguan

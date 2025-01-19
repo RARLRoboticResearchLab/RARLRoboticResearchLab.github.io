@@ -2,6 +2,7 @@
 title: Jinsong Li
 role: Alumni
 bio: An alumnus from China with a strong foundation in computer science and technology.
+year: 2022
 interests:
   - Artificial Intelligence
   - Machine Learning
