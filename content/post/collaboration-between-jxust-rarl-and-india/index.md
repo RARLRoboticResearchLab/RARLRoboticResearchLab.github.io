@@ -6,7 +6,7 @@ draft: false
 featured: false
 image:
   filename: featured
-  focal_point: Smart
+  focal_point: center
   preview_only: false
 ---
 
