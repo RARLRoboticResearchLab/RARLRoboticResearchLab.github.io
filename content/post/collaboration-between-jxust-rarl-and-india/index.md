@@ -23,4 +23,4 @@ The list of support to be shared are as follows:
 4. Student Guidance for PhD and postgraduate level.
 
 
-![](m full.jpg)
+![](m_full.jpg)
