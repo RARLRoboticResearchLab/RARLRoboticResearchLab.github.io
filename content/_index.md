@@ -18,6 +18,65 @@ sections:
       text2: |
         <br>
         
+  - block: slider
+    content:
+      slides:
+        - title: 
+          content: 
+          align: 
+          background:
+            image:
+              # Specify an image from `assets/media/`
+              # or delete the image section to remove it
+              filename: RARL_Certificate of Technical Sponsor at IAR 2024--RARL.jpg
+              size: contain
+              filters:
+                brightness: 1.0
+            position: center
+            color: '#666'
+        - title: 
+          content: 
+          align: center
+          background:
+            image:
+              # Specify an image from `assets/media/`
+              # or delete the image section to remove it
+              filename: RARL_IEID 2025.jpg
+              size: contain
+              filters:
+                brightness: 1.0
+            position: center
+            color: '#555'
+        - title: 
+          content: 
+          align: center
+          background:
+            image:
+              # Specify an image from `assets/media/`
+              # or delete the image section to remove it
+              filename: RARL_MSIM 2025.jpg
+              filters:
+                brightness: 1.0
+              size: contain
+            position: left
+            color: '#333'
+            
+
+          # link:
+          #   icon: graduation-cap
+          #   icon_pack: fas
+          #   text: Join Us
+          #   url: ../contact/
+    design:
+      # Slide height is automatic unless you force a specific height (e.g. '400px')
+      slide_height: '600px'
+      # Make the slides full screen within the browser window?
+      is_fullscreen: false
+      # Automatically transition through slides?
+      loop: true
+      # Duration of transition between slides (in ms)
+      interval: 2000
+
   - block: collection
     content:
       title: Latest News
@@ -56,6 +115,8 @@ sections:
       spacing:
         padding: ['20px', '0', '20px', '0']
       css_class: fullscreen
+
+  
 
   - block: collection
     content:
