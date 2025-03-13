@@ -1,0 +1,1 @@
+[![Deploy website to GitHub Pages](https://github.com/RARLRoboticResearchLab/RARLRoboticResearchLab.github.io/actions/workflows/publish.yaml/badge.svg)](https://github.com/RARLRoboticResearchLab/RARLRoboticResearchLab.github.io/actions/workflows/publish.yaml)
