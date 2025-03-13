@@ -28,7 +28,7 @@ sections:
             image:
               # Specify an image from `assets/media/`
               # or delete the image section to remove it
-              filename: RARL_Certificate of Technical Sponsor at IAR 2024--RARL.jpg
+              filename: RARL_Certificate of Technical Sponsor at IAR 2024 - RARL.jpg
               size: contain
               filters:
                 brightness: 1.0
@@ -75,7 +75,7 @@ sections:
       # Automatically transition through slides?
       loop: true
       # Duration of transition between slides (in ms)
-      interval: 2000
+      interval: 5000
 
   - block: collection
     content:
