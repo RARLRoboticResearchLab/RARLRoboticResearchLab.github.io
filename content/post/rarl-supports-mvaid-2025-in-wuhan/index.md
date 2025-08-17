@@ -25,19 +25,19 @@ The event also featured distinguished keynote speakers, including:
 
 RARL remains committed to advancing research at the intersection of robotics, AI, and machine vision, and MVAID 2025 provided an excellent platform to share insights and collaborate with global experts.
 
-![](mvaid (1).jpg)
+![](mvaid_(1).jpg)
 
-![](mvaid (2).jpg)
+![](mvaid_(2).jpg)
 
-![](mvaid (3).jpg)
+![](mvaid_(3).jpg)
 
-![](mvaid (4).jpg)
+![](mvaid_(4).jpg)
 
-![](mvaid (5).jpg)
+![](mvaid_(5).jpg)
 
-![](mvaid (6).jpg)
+![](mvaid_(6).jpg)
 
-![](mvaid (7).jpg)
+![](mvaid_(7).jpg)
 
-![](mvaid (8).jpg)
+![](mvaid_(8).jpg)
 

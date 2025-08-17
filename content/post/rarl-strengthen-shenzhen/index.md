@@ -13,18 +13,18 @@ On July 27, 2025, the Robotics and AI Research Lab (RARL) visited Shenzhen Cheng
 
 The discussion highlighted opportunities to combine expertise in robotics, AI, and automation, strengthening industry-academia collaboration and advancing innovative solutions in smart manufacturing and related fields.
 
-![](Shenzhen01 (1).jpg)
+![](Shenzhen01_(1).jpg)
 
-![](Shenzhen01 (2).jpg)
+![](Shenzhen01_(2).jpg)
 
-![](Shenzhen01 (3).jpg)
+![](Shenzhen01_(3).jpg)
 
-![](Shenzhen01 (4).jpg)
+![](Shenzhen01_(4).jpg)
 
-![](Shenzhen01 (5).jpg)
+![](Shenzhen01_(5).jpg)
 
-![](Shenzhen01 (6).jpg)
+![](Shenzhen01_(6).jpg)
 
-![](Shenzhen01 (7).jpg)
+![](Shenzhen01_(7).jpg)
 
-![](Shenzhen01 (8).jpg)
+![](Shenzhen01_(8).jpg)
