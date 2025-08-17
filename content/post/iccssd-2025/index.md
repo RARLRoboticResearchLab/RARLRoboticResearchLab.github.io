@@ -1,5 +1,5 @@
 ---
-title: RARL Collaboration with Dongguan University: First Student Publications & ICSSD 2025 Participation
+title: RARL Collaboration with Dongguan University - First Student Publications & ICSSD 2025 Participation
 date: 2025-08-13
 summary: The Robotics and AI Research Lab (RARL) announces its first student research publications and active participation in ICSSD 2025, strengthening collaboration with Dongguan University in smart manufacturing, structural health monitoring, and digital twin technologies.
 draft: false
