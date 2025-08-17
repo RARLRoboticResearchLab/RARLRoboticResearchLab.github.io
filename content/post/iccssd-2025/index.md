@@ -5,7 +5,7 @@ summary: The Robotics and AI Research Lab (RARL) announces its first student res
 draft: false
 featured: false
 image:
-  filename: featured
+  filename: Picture4
   focal_point: Smart
   preview_only: false
 ---

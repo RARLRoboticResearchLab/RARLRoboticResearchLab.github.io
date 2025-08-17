@@ -5,7 +5,7 @@ summary: The Robotics and AI Research Lab (RARL) introduces the CMW dataset, a U
 draft: false
 featured: false
 image:
-  filename: featured
+  filename: Picture6
   focal_point: Smart
   preview_only: false
 ---
@@ -58,12 +58,12 @@ The **CMW dataset** is organized into the following main folders:
 
 This structured dataset provides high-resolution UAV imagery and detailed analysis to support advanced research in **precision agriculture, machine vision, and maize tassel estimation**.  
 
-![](Image_20250815120110.jpg)  
+![](Picture6.png)  
 
-![](Image_20250815120122.jpg)  
+![](Picture7.jpg)  
 
-![](Image_20250815120134.jpg)  
+![](Picture8.jpg)  
 
-![](Image_20250815120147.jpg)  
+![](Picture9.jpg)  
 
-![](Image_20250815120159.jpg)  
+![](Picture10.jpg)  

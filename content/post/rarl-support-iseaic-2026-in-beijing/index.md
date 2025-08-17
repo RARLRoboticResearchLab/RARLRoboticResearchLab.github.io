@@ -19,12 +19,4 @@ Scholars, researchers, and practitioners worldwide are invited to join this even
 
 For more details about the conference, please visit: [https://www.iseaic.com/](https://www.iseaic.com/)
 
-![](Image_20260130120110.jpg)  
-
-![](Image_20260130120122.jpg)  
-
-![](Image_20260130120134.jpg)  
-
-![](Image_20260130120147.jpg)  
-
-![](Image_20260130120159.jpg)  
+![](Picture1.jpg)  
